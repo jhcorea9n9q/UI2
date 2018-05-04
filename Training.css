@@ -1,0 +1,91 @@
+html body, h2 { margin: 0;}
+
+nav {
+    height: 40px;
+    background-color: black;
+}
+
+section {
+    clear: both;
+}
+
+section.ch {
+    background-image: url(Chicago.jpg);
+    background-size: cover;  
+    height: calc(100vh - 70px);
+}
+
+section.con {
+    height: 80vh;
+    text-align: center;
+}
+
+
+nav div {
+    display: inline-block;
+}
+
+nav #nav1 {
+    float: left;
+}
+
+nav #nav2 {
+    float: right;
+}
+
+nav #nav1 a, nav #nav2 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav #nav1 a:hover, nav #nav2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+section.ch article {
+    display: inline-block;    
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+
+
+section.con h2, section.con h4 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+section.con article#div1 p {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+}
+
+section.con div#div2 {
+    display: inline-block;
+    width: 40%;
+}
+
+section.con ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section.con ul li {
+    display: inline-block;
+    float: left;
+    width: calc(100% / 3);
+}
+
+section.con ul li img {
+    width: 80%;
+    border-radius: 5px;
+}
